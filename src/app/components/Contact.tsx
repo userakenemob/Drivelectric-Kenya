@@ -84,7 +84,7 @@ export function Contact() {
             {/* Image */}
             <div className="mt-10 rounded-2xl overflow-hidden h-48 bg-gray-100">
               <img
-                src="https://images.unsplash.com/photo-1775259928405-d3d76549cb08?w=800&h=400&fit=crop&auto=format"
+                src="https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135483/1763441210637_oyrync.jpg"
                 alt="Electric car charging at modern home"
                 className="w-full h-full object-cover"
               />

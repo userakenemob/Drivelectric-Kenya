@@ -142,7 +142,7 @@ function ChargingNetwork() {
             </Link>
           </div>
           <div className="relative rounded-2xl overflow-hidden aspect-square bg-gray-900">
-            <img src="https://images.unsplash.com/photo-1760538978585-f82dc257ec15?w=700&h=700&fit=crop&auto=format" alt="EV charging" className="w-full h-full object-cover opacity-70" />
+            <img src="https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135482/1763972956978_bkjyqo.jpg" alt="EV charging" className="w-full h-full object-cover opacity-70" />
             <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(0,0,0,0.6) 0%, transparent 60%)" }} />
             <div className="absolute bottom-6 left-6 right-6">
               <div className="p-4 rounded-xl" style={{ background: "rgba(0,0,0,0.75)", backdropFilter: "blur(8px)", border: "1px solid rgba(54,172,67,0.2)" }}>

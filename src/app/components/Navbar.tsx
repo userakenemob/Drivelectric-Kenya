@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { NavLink, Link, useLocation } from "react-router";
 
 const navLinks = [
@@ -38,20 +38,16 @@ export function Navbar() {
       }}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 group">
-          <div
-            className="w-9 h-9 rounded-lg flex items-center justify-center"
-            style={{ background: "#36ac43" }}
-          >
-            <Zap size={20} color="#fff" fill="#fff" />
-          </div>
-          <span
-            className="text-white tracking-tight"
-            style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700, fontSize: "1.15rem" }}
-          >
-            Driv<span style={{ color: "#36ac43" }}>electric</span>
-          </span>
+        <Link to="/" className="flex items-center">
+          <img
+            src="https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780311496/Drivelectric_Logo_l6mmgp.png"
+            alt="Drivelectric Logo"
+            className="h-9 md:h-10 w-auto object-contain"
+            loading="eager"
+            decoding="async"
+          />
         </Link>
 
         {/* Desktop Links */}
@@ -62,15 +58,17 @@ export function Navbar() {
                 to={link.to}
                 end={link.to === "/"}
                 className={({ isActive }) =>
-                  `text-sm tracking-wide transition-colors ${
-                    isActive ? "text-white font-semibold" : "text-white/70 hover:text-white"
+                  `text-sm tracking-wide transition-colors ${isActive
+                    ? "text-white font-semibold"
+                    : "text-white/70 hover:text-white"
                   }`
                 }
                 style={({ isActive }) => ({
                   fontFamily: "Poppins, sans-serif",
                   fontWeight: isActive ? 600 : 500,
-                  color: undefined,
-                  borderBottom: isActive ? "2px solid #36ac43" : "2px solid transparent",
+                  borderBottom: isActive
+                    ? "2px solid #36ac43"
+                    : "2px solid transparent",
                   paddingBottom: "2px",
                 })}
               >
@@ -90,10 +88,7 @@ export function Navbar() {
         </Link>
 
         {/* Mobile hamburger */}
-        <button
-          className="lg:hidden text-white"
-          onClick={() => setOpen(!open)}
-        >
+        <button className="lg:hidden text-white" onClick={() => setOpen(!open)}>
           {open ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>

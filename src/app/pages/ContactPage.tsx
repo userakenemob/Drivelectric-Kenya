@@ -1,6 +1,7 @@
 import { Contact } from "../components/Contact";
 import { Link } from "react-router";
 import { ArrowRight, Clock, Users, Award, Headphones } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 function PageHero() {
   return (
@@ -70,12 +71,12 @@ function OfficeSection() {
             <span className="text-sm font-semibold tracking-widest uppercase mb-3 block" style={{ color: "#36ac43" }}>Visit Us</span>
             <h2 className="mb-6" style={{ fontSize: "clamp(1.6rem,3vw,2.2rem)", fontWeight: 800, color: "#000" }}>Our Office in Nairobi</h2>
             <p className="text-gray-500 mb-8 leading-relaxed">
-              We are based in the heart of Westlands, Nairobi — easily accessible and close to major transport routes.
+              We are based at The Well Mall, Karen, Nairobi — easily accessible and close to major transport routes.
               We welcome visits for in-person consultations, product demonstrations, and project briefings.
             </p>
             <div className="space-y-4 mb-8">
               {[
-                { label: "Address", value: "Westlands Commercial Centre, Nairobi, Kenya" },
+                { label: "Address", value: "The Well Mall, Karen, Nairobi, Kenya" },
                 { label: "Working Hours", value: "Mon – Fri: 8:00 AM – 6:00 PM | Sat: 9:00 AM – 1:00 PM" },
                 { label: "Phone", value: "+254 722 953 976" },
                 { label: "Email", value: "info@drivelectric.co.ke" },
@@ -87,31 +88,30 @@ function OfficeSection() {
               ))}
             </div>
             <a
-              href="https://maps.google.com/?q=Westlands+Nairobi+Kenya"
+              href="https://www.google.com/maps?um=1&ie=UTF-8&fb=1&gl=ke&sa=X&geocode=KeUMm8FiGy8YMQOvEVG19Mdg&daddr=MQ54%2BMP2,+Langata+Rd,+Nairobi"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-white font-semibold text-sm transition-all hover:opacity-90"
               style={{ background: "#36ac43" }}
             >
-              Open in Google Maps <ArrowRight size={16} />
+              <MapPin size={16} />
+              Get Directions
             </a>
           </div>
-          <div className="relative rounded-2xl overflow-hidden bg-gray-200" style={{ height: "420px" }}>
-            {/* Map placeholder visual */}
-            <img
-              src="https://images.unsplash.com/photo-1760538970459-c77b1e747e89?w=800&h=600&fit=crop&auto=format"
-              alt="Office area"
-              className="w-full h-full object-cover opacity-60"
+          <div
+            className="relative rounded-2xl overflow-hidden shadow-lg"
+            style={{ height: "420px" }}
+          >
+            <iframe
+              src="https://maps.google.com/maps?q=MQ54+MP2+Langata+Road+Nairobi&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Drivelectric Kenya Location"
             />
-            <div className="absolute inset-0 flex items-center justify-center" style={{ background: "rgba(0,0,0,0.4)" }}>
-              <div className="text-center">
-                <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center" style={{ background: "#36ac43" }}>
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                </div>
-                <p className="text-white font-bold">Westlands, Nairobi</p>
-                <p className="text-white/70 text-sm">Drivelectric Kenya HQ</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ function PageHero() {
       style={{ background: "#000", fontFamily: "Poppins, sans-serif", minHeight: "50vh", display: "flex", alignItems: "center" }}
     >
       <div className="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1600&h=800&fit=crop&auto=format" alt="EV charger" className="w-full h-full object-cover opacity-20" />
+        <img src="" alt="EV charger" className="w-full h-full object-cover opacity-20" />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.6))" }} />
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -75,7 +75,7 @@ const deepDives = [
       { icon: Leaf, text: "Zero tailpipe emissions for a cleaner operational footprint" },
       { icon: BarChart3, text: "Real-time reporting and ROI tracking from day one" },
     ],
-    img: "https://images.unsplash.com/photo-1704340142770-b52988e5b6eb?w=800&h=560&fit=crop&auto=format",
+    img: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135487/1770224830484_sccyup.jpg",
     imgAlt: "Modern electric concept car",
     caseStudy: { client: "Corporate Transport Co.", result: "Reduced monthly fuel costs from KES 180,000 to KES 22,000 after deploying 12 electric sedans." },
   },
@@ -105,7 +105,7 @@ const deepDives = [
       { icon: Clock, text: "Minimal business disruption during installation" },
       { icon: DollarSign, text: "Monetize charging through pay-per-use for customers or staff" },
     ],
-    img: "https://images.unsplash.com/photo-1760538978585-f82dc257ec15?w=800&h=560&fit=crop&auto=format",
+    img: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135484/1764647733199_rg46gg.jpg",
     imgAlt: "Woman plugging electric car into wall charger",
     caseStudy: { client: "Westlands Commercial Centre", result: "Installed 20-bay dual-port charging hub generating KES 85,000+ in monthly revenue from public EV sessions." },
   },

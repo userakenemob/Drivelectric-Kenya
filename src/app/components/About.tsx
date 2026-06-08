@@ -27,7 +27,7 @@ export function About() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] bg-gray-100">
               <img
-                src="https://images.unsplash.com/photo-1775259928405-d3d76549cb08?w=900&h=680&fit=crop&auto=format"
+                src="https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135485/1764650871216_p1c1av.jpg"
                 alt="Electric car charging at a modern home"
                 className="w-full h-full object-cover"
               />

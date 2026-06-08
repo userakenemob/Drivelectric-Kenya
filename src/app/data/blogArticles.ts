@@ -26,10 +26,10 @@ export const articles: Article[] = [
     category: "Industry",
     date: "May 14, 2026",
     readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1704340142770-b52988e5b6eb?w=1200&h=700&fit=crop&auto=format",
+    image: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135489/1771900431841_kzpirx.jpg",
     alt: "Modern electric car on a Nairobi road",
     excerpt: "As EV adoption accelerates across Africa, Kenya is emerging as a continental leader in electric mobility — driven by progressive government policy, falling battery costs, and growing charging infrastructure investment.",
-    author: "James Mwangi",
+    author: "Kevin Asika",
     authorRole: "Head of Industry Affairs, Drivelectric Kenya",
     body: [
       { type: "paragraph", content: "Kenya stands at the cusp of a transportation revolution. With global EV sales surpassing 20 million units in 2025 and battery costs now below $90 per kWh, the economics of electric vehicles have finally tipped decisively in favour of adoption — even in emerging markets like East Africa." },
@@ -57,10 +57,10 @@ export const articles: Article[] = [
     category: "Fleet",
     date: "April 28, 2026",
     readTime: "4 min read",
-    image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1200&h=700&fit=crop&auto=format",
+    image: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135484/1764647733199_rg46gg.jpg",
     alt: "Electric vehicle being charged",
     excerpt: "Organizations transitioning to electric fleets are reporting 30–40% reductions in total cost of ownership. Here's how electrification works in practice for East African businesses.",
-    author: "Sarah Wanjiku",
+    author: "Evelyne Kamau",
     authorRole: "Fleet Solutions Manager, Drivelectric Kenya",
     body: [
       { type: "paragraph", content: "Fleet electrification is no longer a distant aspiration for East African businesses — it is a practical, financially proven strategy that forward-thinking organizations are already executing. From logistics companies to hotel shuttle services, the results are consistent: lower costs, happier drivers, and a measurable reduction in carbon footprint." },
@@ -88,8 +88,8 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=1200&h=700&fit=crop&auto=format",
     alt: "Solar panels under a blue sky",
     excerpt: "Integrating solar generation with EV charging infrastructure creates a virtuous cycle of clean energy production and zero-emission transportation.",
-    author: "David Ochieng",
-    authorRole: "Renewable Energy Director, Drivelectric Kenya",
+    author: "Abraham Friday",
+    authorRole: "Research Lead, Drivelectric Kenya",
     body: [
       { type: "paragraph", content: "Kenya receives an average of 4–6 peak sun hours per day — one of the highest solar irradiance levels on the continent. For businesses and homeowners investing in EV charging infrastructure, this creates a remarkable opportunity: the ability to generate the energy that powers your vehicles directly from the sun, at essentially zero marginal cost after installation." },
       { type: "heading", content: "How Solar + EV Charging Works" },
@@ -117,7 +117,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1760538970459-c77b1e747e89?w=1200&h=700&fit=crop&auto=format",
     alt: "Business owner reviewing EV cost savings",
     excerpt: "A comprehensive breakdown of how Kenyan businesses are saving 30–45% on transport costs after switching to electric fleets.",
-    author: "Grace Kamau",
+    author: "Peter Kimutai",
     authorRole: "Financial Analyst, Drivelectric Kenya",
     body: [
       { type: "paragraph", content: "The business case for electric vehicles in Kenya has shifted from 'interesting on paper' to 'proven in the field.' Across dozens of Drivelectric Kenya client engagements over the past three years, the pattern is clear: businesses that make the switch to electric fleets consistently achieve significant cost reductions — and the savings begin from day one." },
@@ -146,7 +146,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1775259928405-d3d76549cb08?w=1200&h=700&fit=crop&auto=format",
     alt: "EV charging station at a commercial location",
     excerpt: "From slow AC charging to high-speed DC chargers — we break down everything you need to know about EV charging technology in Kenya.",
-    author: "Peter Gitonga",
+    author: "Tony Mbuvi",
     authorRole: "Infrastructure Engineer, Drivelectric Kenya",
     body: [
       { type: "paragraph", content: "One of the most common questions we receive from businesses and individuals considering their first electric vehicle is: 'What kind of charging do I need?' The answer depends on your usage patterns, budget, and how quickly you need to charge. This guide walks you through every charging type available in Kenya today." },
@@ -175,8 +175,8 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=1200&h=700&fit=crop&auto=format",
     alt: "Solar array powering an EV charging station",
     excerpt: "Integrating solar generation with EV charging creates a virtuous cycle of clean energy production and zero-cost transportation.",
-    author: "David Ochieng",
-    authorRole: "Renewable Energy Director, Drivelectric Kenya",
+    author: "Abraham Friday",
+    authorRole: "Research Lead, Drivelectric Kenya",
     body: [
       { type: "paragraph", content: "What if the sun powered your commute? For a growing number of Kenyan households and businesses, this is no longer a hypothetical question — it is their daily reality. By combining rooftop solar with EV charging, it is possible to reduce the effective cost of vehicle fuel to near zero." },
       { type: "heading", content: "The Maths of Solar-Powered Driving" },
@@ -203,7 +203,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=1200&h=700&fit=crop&auto=format",
     alt: "Ride-hailing driver with electric vehicle in Nairobi",
     excerpt: "Uber and Bolt drivers in Nairobi who've switched to electric are reporting 40% higher net earnings after removing fuel costs from the equation.",
-    author: "Moses Kariuki",
+    author: "Bernard Kipkirui",
     authorRole: "PayGo Programme Lead, Drivelectric Kenya",
     body: [
       { type: "paragraph", content: "In Nairobi's competitive ride-hailing market, margins are everything. Uber and Bolt drivers earn commissions that, after fuel and vehicle maintenance, leave many with net earnings that barely justify the long hours. A growing number of drivers who have switched to electric vehicles are discovering they've fundamentally changed the economics of their work — in their favour." },
@@ -230,7 +230,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&h=700&fit=crop&auto=format",
     alt: "Power grid infrastructure at sunset",
     excerpt: "As EV adoption grows rapidly, Kenya Power and private energy companies are racing to upgrade distribution networks to handle new load demands.",
-    author: "James Mwangi",
+    author: "Kevin Asika",
     authorRole: "Head of Industry Affairs, Drivelectric Kenya",
     body: [
       { type: "paragraph", content: "Every electric vehicle added to Kenya's roads represents a new electricity demand of approximately 10–15 kWh per day. With EV registrations growing at over 100% year-on-year, grid planners and distribution companies face a genuine challenge: how to accommodate the new loads without compromising reliability for other users?" },
@@ -257,7 +257,7 @@ export const articles: Article[] = [
     image: "https://images.unsplash.com/photo-1571127236794-81c0bbfe1ce3?w=1200&h=700&fit=crop&auto=format",
     alt: "Fleet of commercial vehicles at a depot",
     excerpt: "From needs assessment to full deployment — a practical roadmap for transitioning your company vehicles to electric in the Kenyan market.",
-    author: "Sarah Wanjiku",
+    author: "Evelyne Kamau",
     authorRole: "Fleet Solutions Manager, Drivelectric Kenya",
     body: [
       { type: "paragraph", content: "Fleet electrification is one of the most impactful decisions a Kenyan business can make in 2026 — both financially and environmentally. But for many fleet managers and business owners, the complexity of the transition feels daunting. How do you assess readiness? Which vehicles should go first? Where do you install charging? How do you manage the change with drivers?" },

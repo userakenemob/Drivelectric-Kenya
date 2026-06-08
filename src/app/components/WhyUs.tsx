@@ -116,7 +116,7 @@ export function WhyUs() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden aspect-square bg-gray-100">
               <img
-                src="https://images.unsplash.com/photo-1760539120788-8529cccfea75?w=700&h=700&fit=crop&auto=format"
+                src="https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135488/1774884063951_qmyaag.jpg"
                 alt="Black electric car charging next to brick building"
                 className="w-full h-full object-cover"
               />

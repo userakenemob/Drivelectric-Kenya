@@ -46,18 +46,11 @@ export function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4 w-fit">
-              <div
-                className="w-9 h-9 rounded-lg flex items-center justify-center"
-                style={{ background: "#36ac43" }}
-              >
-                <Zap size={20} color="#fff" fill="#fff" />
-              </div>
-              <span
-                className="text-white tracking-tight"
-                style={{ fontWeight: 700, fontSize: "1.15rem" }}
-              >
-                Driv<span style={{ color: "#36ac43" }}>electric</span>
-              </span>
+              <img
+                src="https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780311496/Drivelectric_Logo_l6mmgp.png"
+                alt="Drivelectric Logo"
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="text-white/50 text-sm leading-relaxed mb-6 max-w-xs">
               Kenya's leading electric vehicle and clean energy company. Accelerating the future of sustainable mobility across East Africa.

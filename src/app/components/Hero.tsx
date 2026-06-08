@@ -55,7 +55,7 @@ export function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1760538970459-c77b1e747e89?w=1920&h=1080&fit=crop&auto=format"
+          src="https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135488/1774883270256_hd2tid.jpg"
           alt="Electric vehicle charging station"
           className="w-full h-full object-cover"
         />

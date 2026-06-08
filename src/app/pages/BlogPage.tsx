@@ -7,7 +7,7 @@ function PageHero() {
   return (
     <section className="relative pt-32 pb-20 flex items-center" style={{ background: "#000", fontFamily: "Poppins, sans-serif", minHeight: "55vh" }}>
       <div className="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1724041875334-0a6397111c7e?w=1600&h=800&fit=crop&auto=format" alt="Solar panel close up" className="w-full h-full object-cover opacity-15" />
+        <img src="https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780314320/Remove_the_text_from_the_202606011444_imarg4.jpg" alt="Solar panel close up" className="w-full h-full object-cover opacity-15" />
         <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(0,0,0,0.9), rgba(0,0,0,0.65))" }} />
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-6">
@@ -35,7 +35,7 @@ function FeaturedArticle() {
         <div className="rounded-3xl overflow-hidden" style={{ border: "1px solid rgba(0,0,0,0.08)" }}>
           <div className="grid lg:grid-cols-2">
             <div className="relative h-64 lg:h-auto bg-gray-100">
-              <img src="https://images.unsplash.com/photo-1704340142770-b52988e5b6eb?w=900&h=600&fit=crop&auto=format" alt="Electric car" className="w-full h-full object-cover" />
+              <img src="https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780314320/Remove_the_text_from_the_202606011444_imarg4.jpg" alt="Electric car" className="w-full h-full object-cover" />
               <div className="absolute inset-0" style={{ background: "rgba(0,0,0,0.2)" }} />
               <div className="absolute top-5 left-5">
                 <span className="px-3 py-1.5 rounded-full text-xs font-bold" style={{ background: "#36ac43", color: "#fff" }}>Feature Article</span>

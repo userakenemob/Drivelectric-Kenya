@@ -77,10 +77,10 @@ function HomeVehiclesTeaser() {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {[
-            { name: "Nissan Leaf", range: "270 km", img: "https://images.unsplash.com/photo-1571127236794-81c0bbfe1ce3?w=500&h=360&fit=crop&auto=format" },
-            { name: "MG4", range: "435 km", img: "https://images.unsplash.com/photo-1711921127505-f4a8727329a5?w=500&h=360&fit=crop&auto=format" },
-            { name: "Boma EV", range: "300 km", img: "https://images.unsplash.com/photo-1615829386703-e2bb66a7cb7d?w=500&h=360&fit=crop&auto=format" },
-            { name: "MG ZS EV", range: "320 km", img: "https://images.unsplash.com/photo-1704340142770-b52988e5b6eb?w=500&h=360&fit=crop&auto=format" },
+            { name: "Nissan Leaf", range: "270 km", img: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780314314/Nissan_Leaf_usy3ij.jpg" },
+            { name: "MG4", range: "435 km", img: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780314313/MG4_csvxgy.webp" },
+            { name: "Boma EV", range: "300 km", img: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780314319/Remove_the_text_from_the_202606011438_jbbg0f.jpg" },
+            { name: "MG ZS EV", range: "320 km", img: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780314320/Remove_the_text_from_the_202606011444_imarg4.jpg" },
           ].map((v) => (
             <Link
               key={v.name}
@@ -158,14 +158,14 @@ function HomeFinancingCTA() {
               title: "Own Your EV with Flexible Payments",
               desc: "Start with an initial deposit and make manageable monthly payments while driving your electric vehicle. Full ownership awaits at the end of the term.",
               cta: "Learn About Leasing",
-              img: "https://images.unsplash.com/photo-1760538970459-c77b1e747e89?w=700&h=420&fit=crop&auto=format",
+              img: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135484/1763973644036_1_j7ihzj.jpg",
             },
             {
               tag: "PayGo Model",
               title: "Pay as You Go. Earn as You Drive.",
               desc: "Ideal for ride-hailing, delivery, and commercial operators. Access electric mobility with minimal upfront costs and flexible usage-based plans.",
               cta: "Explore PayGo",
-              img: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=700&h=420&fit=crop&auto=format",
+              img: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135483/1763441210637_oyrync.jpg",
             },
           ].map((card) => (
             <div key={card.tag} className="group relative rounded-3xl overflow-hidden" style={{ minHeight: "360px" }}>
@@ -243,7 +243,7 @@ function HomeBlogTeaser() {
         </div>
         <div className="grid md:grid-cols-3 gap-6">
           {[
-            { title: "The Future of Electric Mobility in Kenya", cat: "Industry", date: "May 14, 2026", img: "https://images.unsplash.com/photo-1704340142770-b52988e5b6eb?w=600&h=360&fit=crop&auto=format", read: "5 min" },
+            { title: "The Future of Electric Mobility in Kenya", cat: "Industry", date: "May 14, 2026", img: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780314320/Remove_the_text_from_the_202606011444_imarg4.jpg", read: "5 min" },
             { title: "Benefits of Fleet Electrification for East African Businesses", cat: "Fleet", date: "Apr 28, 2026", img: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&h=360&fit=crop&auto=format", read: "4 min" },
             { title: "Solar Energy and EV Charging: A Perfect Match", cat: "Energy", date: "Apr 10, 2026", img: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&h=360&fit=crop&auto=format", read: "6 min" },
           ].map((p) => (

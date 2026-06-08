@@ -7,7 +7,7 @@ const solutions = [
     icon: Car,
     title: "Electric Vehicle Solutions",
     tagline: "From first EV to full fleet — we handle everything.",
-    heroImage: "https://images.unsplash.com/photo-1704340142770-b52988e5b6eb?w=1400&h=700&fit=crop&auto=format",
+    heroImage: "https://res.cloudinary.com/dfrbkwdzf/image/upload/q_auto/f_auto/v1780135487/1770224830484_sccyup.jpg",
     heroAlt: "Modern electric concept car",
     color: "#36ac43",
     intro: "Transitioning to electric vehicles is one of the most impactful operational decisions a Kenyan business can make — both for the bottom line and for the environment. Drivelectric Kenya is your complete partner through every step of the journey, from understanding which EV is right for your needs to deploying, operating, and maintaining your electric fleet for years to come.",
