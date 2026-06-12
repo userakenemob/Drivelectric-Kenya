@@ -5,14 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- BASIC SEO -->
   <title>Drivelectric | Electric Mobility & EV Solutions in Kenya</title>
 
   <meta name="description"
     content="Drivelectric is an electric mobility company in Kenya providing EV charging infrastructure, fleet electrification, and sustainable transport solutions across Africa." />
 
-  <meta name="keywords"
-    content="EV charging Kenya, electric vehicles Kenya, fleet electrification Africa, electric mobility solutions" />
+  <meta name="robots" content="index, follow" />
 
   <link rel="canonical" href="https://drivelectric.ke/" />
 
@@ -22,10 +20,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-  <!-- THEME -->
-  <meta name="theme-color" content="#0f172a" />
-
-  <!-- OPEN GRAPH -->
+  <!-- SOCIAL PREVIEW -->
   <meta property="og:title" content="Drivelectric | Electric Mobility in Africa" />
   <meta property="og:description"
     content="EV charging infrastructure and fleet electrification solutions across Kenya and Africa." />
@@ -33,24 +28,28 @@
   <meta property="og:url" content="https://drivelectric.ke/" />
   <meta property="og:type" content="website" />
 
-  <!-- TWITTER -->
   <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- IMPORTANT: prevents accidental override issues -->
-  <meta name="robots" content="index, follow" />
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      font-family: system-ui, Arial, sans-serif;
+    }
 
+    #root {
+      height: 100%;
+    }
+  </style>
 </head>
 
 <body>
+  <!-- IMPORTANT: React mounts here -->
+  <div id="root"></div>
 
-  <!-- IMPORTANT: NO FULL CONTENT HERE -->
-  <!-- This avoids breaking React / routing apps -->
-
-  <noscript>
-    <h1>Drivelectric - Electric Mobility in Kenya</h1>
-    <p>Enable JavaScript to view the full website.</p>
-  </noscript>
-
+  <!-- THIS IS CRITICAL (DO NOT REMOVE) -->
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 
 </html>
