@@ -1,0 +1,40 @@
+# Drivelectric
+
+Drivelectric is an electric mobility and EV infrastructure company based in Kenya, focused on accelerating the transition to sustainable transportation in Africa.
+
+We design and deploy:
+- EV charging infrastructure
+- Fleet electrification solutions
+- Electric vehicle adoption systems
+- Energy management solutions
+- Mobility consulting for organizations and governments
+
+Website: https://drivelectric.ke
+
+## Key Pages
+- Home: https://drivelectric.ke/
+- About: https://drivelectric.ke/about
+- Solutions: https://drivelectric.ke/solutions
+- Vehicles: https://drivelectric.ke/vehicles
+- Financing: https://drivelectric.ke/financing
+- Projects: https://drivelectric.ke/projects
+- Blog: https://drivelectric.ke/blog
+
+## Priority Content
+High priority pages for understanding the business:
+1. Solutions (EV charging + fleet electrification)
+2. Projects (real-world deployments and case studies)
+3. Financing (adoption support for EV transition)
+
+## Target Market
+- Fleet operators
+- Governments
+- Energy companies
+- Corporates transitioning to EVs
+- Mobility innovators in Africa
+
+## Geographic Focus
+Kenya and East Africa, expanding across Africa.
+
+## Notes
+Drivelectric focuses on real-world deployment of electric mobility infrastructure and practical solutions for decarbonizing transport systems.

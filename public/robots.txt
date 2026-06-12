@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap location (IMPORTANT - uses your real domain)
+Sitemap: https://drivelectric.ke/sitemap.xml
+
+# Block system/internal routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+
+# Optional: prevent indexing of test or staging folders
+Disallow: /test/
+Disallow: /tmp/
